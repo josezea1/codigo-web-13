@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+</head>
+<body>
+    <h1>Tipos de inputs</h1>
+    <input type="text" placeholder="ejem: Jose Zea" value="Pepe" name="nombre" id="mi_nombre">
+    <input type="text" placeholder="Ingresa tu apellido" name="apellido" id="mi_apellido">
+    <!-- number -->
+    <h2>Input number</h2>
+    <input type="number" placeholder="Ingrese su edad" name="edad" id="mi_edad">
+    <!-- input tipo email y password -->
+    <h2>Input de correo y password</h2>
+    <input type="email" placeholder="Ingrese su correo" name="correo" id="mi_correo">
+    <input type="password" placeholder="Ingrese su password" name="password" id="mi_password">
+    <input type="submit" value="Ingresar" name="" id="">
+    <h2>Inputs tipo hora y fecha</h2>
+    <input type="date">
+    <input type="time">
+    <input type="datetime-local">
+    <!-- Input tipo archivos -->
+    <h2>Input tipo archivo</h2>
+    <input type="file" >
+    <input type="file" accept="application/pdf">
+    <input type="file" accept="image/*">
+    <!-- input tipo radio y chek -->
+    <h2>input tipo radio y chek</h2>
+    <br>
+    <input type="radio" name="opcion registro" checked>radio 1
+    <br>
+    <input type="radio" name="opcion registro">radio 2
+    <br>
+    <input type="radio" name="opcion registro">radio 3
+    <p>checkbox</p>
+    <p>
+        <!-- en el name cuando se pone los corchetes quiere decir que se puede seleccionar mas de un elemento -->
+        <input type="checkbox" name="opcion_check[]" checkedfy> checkbox 1
+        <br>
+        <input type="checkbox" name="opcion_check[]"> checkbox 2
+        <br>
+        <input type="checkbox" name="opcion_check[]"> checkbox 3
+        <br>                
+    </p>
+    <p>
+        <h2>ingresar un color</h2>
+        <input type="color">
+    </p>
+    <p>input tipo range</p>
+    <input type="range">
+    <p>busqueda</p>
+    <input type="search" placeholder="ingresa tu busqueda">
+    <p>tipo telefono</p>
+    <input type="tel" name="" id="">
+</body>
+</html>
