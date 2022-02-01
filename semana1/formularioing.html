@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+    <title>Formulario</title>
+</head>
+
+<body background="#580e60">
+    <h1> Formulario de inscripción</h1>
+    <p>
+        Ingrese su nombre: <input type="text" placeholder="Ingrese nombre" name="nombre" id="mi_nombre" />
+    </p>
+    <p>
+        Ingrese su apellido:<input type="text" placeholder="Ingrese apellido" name="apellido" id="mi_apellido" />
+    </p>
+    <p> Seleccione genero: <br />
+        <input type="radio" name="opcion_registro" checked/> Femenino
+        <br />
+        <input type="radio" name="opcion_registro" />Masculino
+        <br />
+
+    </p>
+
+    <p> fecha de nacimiento:        
+        <input type="date" />
+    </p>
+
+    <p> Seleccione su region de residencia: <br />
+        <input list="region" name="mi_region" /></label>
+        <datalist id="region">
+            <option value="Lima">
+            <option value="Ica">
+            <option value="Nazca">
+            <option value="Arequipa">            
+        </datalist>        
+        <br />
+    <p>
+        Cargar archivo en <strong>pdf</strong> de su DNI: <br />
+        <input type="file" accept="application/pdf" />
+    </p>
+    <p>
+        Cargar su foto en <strong>imagen</strong>: <br />
+        <input type="file" accept="image/*" />
+    </p>
+    <p>
+        E-mail:<br />
+        <input type="email" placeholder="Correo electronico" id="mi_correo" />
+    </p>
+    <p>
+        Numero de telefono:<br />
+        <input type="tel" placeholder="9 digitos" />
+    </p>
+    <p>
+        Password:<br />
+        <input type="password" placeholder="password" name="password" id="mi_password" />
+    </p>
+
+    <input type="submit" value="Ingresar datos" />
+</body>
+
+</html>

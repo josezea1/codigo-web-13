@@ -1,0 +1,96 @@
+body{
+    font-family: helvetica;
+}
+h1{
+    color: red;
+    background-color: cornflowerblue;
+}
+h2{
+    color: green;
+    background-color: rgb(153, 101, 201);
+}
+p{
+    color:blue;
+    /* background-color:#0aa399; */
+}
+a{
+    color: chocolate;
+    background-color: darkkhaki;
+}
+#contenedor-uno{
+    background-color: cadetblue;
+}
+#contenedor-dos{
+    background-color: yellow;
+}
+.contenedor-principal{
+    background-color: violet;
+    padding: 30px;
+}
+.btn-ingresar{
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+.btn-registro{
+    background-color: rgb(103, 103, 235);
+    color: rgb(209, 77, 77);
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 25px;
+}
+.contenedor-form{
+    border: 3px solid rgb(200, 50, 0);
+    border-radius: 8px;
+}
+.contenedor-interno-form{
+    padding: 20px;
+    text-align: center;
+}
+.tituli-form{
+    color: rgb(103, 103, 235);
+    background-color: white;
+}
+.input-form{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px red solid;
+    width: 300px;
+}
+.input-codigo{
+    width: 70px;
+
+}
+.input-numero{
+    width: 200px;
+}
+.btn-crear{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px rgb(64, 24, 209) solid;
+    width: 300px;
+}
+/* .contenedor-boton{
+    text-align: right;
+} */
+.btn-ingresar:hover{
+    background-color: rgb(153, 101, 201);
+    color: #000;
+    text-decoration: none;
+    padding: 20px;
+}
+div:hover{
+    background-color: rosybrown;
+}
+.contenedor-interno-form h1{
+    border: 2px solid blueviolet;
+}
+h1 :first-child{
+    background-color: rgb(54, 202, 24);
+}
+input:first-of-type{
+    color: rgb(187, 85, 228);
+}
