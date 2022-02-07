@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.gradiente-uno{
+    width: 300px;
+    height: 300px;
+    /* se da minimante dos valores de color */
+    background: linear-gradient(45deg, red,orange,rgb(82, 5, 5));
+    color: azure;
+}
+.gradiente-dos{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to right top, black, red, green);
+}
+.gradiente-tres{
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(45deg, red,orange,rgb(82, 5, 5)),
+        linear-gradient(60deg, black, red, green);
+}
+.img-emp{
+    border: solid;
+    width: 300px;
+    border-radius: 50%; 
+    object-fit: contain;   
+}
+img{
+    width: 120px;
+}
+.img-dos{
+    opacity: 0.5;
+}
+.img-tres{
+    filter: grayscale(90%);
+}
+.img-cuatro{
+    filter: blur(5px);
+}
+.img-cinco{
+    filter: sepia(100%);
+}
+.img-seis{
+    filter: invert(100%);
+}
+.img-siete{
+    filter: hue-rotate(180deg);
+}
+.img-ocho{
+    filter: saturate(100%);
+}
+.img-nueve{
+    filter: brightness(0.5);
+}
+.img-diez{
+    filter: opacity(50%);
+}

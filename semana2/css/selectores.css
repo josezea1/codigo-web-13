@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.contenedor p{
+    color: red;
+}
+.contenedor-dos h2{
+    color: blueviolet;
+}
+.contenedor-tres a img{
+    border: 2px solid blue;
+}
+.menu-navegacion{
+    margin: 20px;
+
+}
+ul > li{
+    border: 2px solid greenyellow;
+}
+.link-navegacion{
+    border: 2px solid blue;
+}
+input[type="email"] {
+    background-color: brown;
+}
+input[type="text"] {
+    color: rgb(0, 255, 170);
+}
+input[type="password"] {
+    color: rgb(0, 255, 170);
+}
