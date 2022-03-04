@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Eventos</h1>
+    <button onclick = "console.log('Mi primer click')">Mi primer click</button>
+    <h1 onclick="console.log('Click desde el h1')">Click desde h1</h1> 
+    <p onmouseover="console.log('mouse sobre p')">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, facere minus. Autem reiciendis labore exercitationem architecto, dolor, eum at quis voluptate sapiente sit eos quibusdam maiores in esse saepe? Rerum.
+    </p>
+    <button ondblclick="console.log('Evento doble click')" onclick="this.style.color ='#f01'">Doble click</button>
+    <button onclick="imprimir()">Click desde js</button>
+    <div>
+        <input type="text" placeholder="Numero1" id="numero1" />
+        <input type="text" placeholder="Numero2" id="numero2" />
+        <button onclick="calculadorHTML('+')">+</button>
+        <button onclick="calculadorHTML('-')">-</button>
+        <button onclick="calculadorHTML('*')">*</button>
+        <button onclick="calculadorHTML('/')">/</button>
+        <div id="resultado"></div>
+    </div>
+    <script src="./eventos.js"></script>
+    <script src="./operaciones.js"></script>
+</body>
+</html>
